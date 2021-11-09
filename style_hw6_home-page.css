@@ -1,0 +1,771 @@
+* {
+
+	width: 75%;
+	height: 75%;
+}
+
+
+/*********** OVERALL PAGE ************/
+
+
+
+body {
+	position: fixed;
+    background: rgba(230, 145, 189, 0.55);
+    width: 1440px;
+    height: 900px;
+    margin: 0 auto;
+    }
+
+#content{
+	color: #FFFFFF;
+}
+
+
+/*********** NAVIGATION ITEMS ************/
+
+
+#nav {
+	position: fixed;
+	width: 100%;
+	height: 128px;
+	background: #FFFFFF;
+	
+	left: 0px;
+	top: 0px;
+}
+
+#about{
+	position: absolute;
+	width: 70px;
+	height: 37px;
+	left: 178px;
+	top: 60px;
+
+	font-family: Didact Gothic;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 28px;
+	line-height: 37px;
+	color: #B9B6B6;
+	text-decoration: none;
+}
+
+#contact{
+	position: absolute;
+	width: 88px;
+	height: 37px;
+	left: 336px;
+	top: 60px;
+
+	font-family: Didact Gothic;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 28px;
+	line-height: 37px;
+	color: #B9B6B6;
+	text-decoration: none;
+}
+
+#order-online{
+	position: absolute;
+	width: 144px;
+	height: 37px;
+	left: 515px;
+	top: 60px;
+
+	font-family: Didact Gothic;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 28px;
+	line-height: 37px;
+	color: #B9B6B6;
+	text-decoration: none;
+}
+
+#track-order{
+	position: absolute;
+	width: 129px;
+	height: 37px;
+	left: 750px;
+	top: 60px;
+
+	font-family: Didact Gothic;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 28px;
+	line-height: 37px;
+	color: #B9B6B6;
+	text-decoration: none;
+}
+
+
+#events{
+
+	position: absolute;
+	width: 77px;
+	height: 37px;
+	left: 945px;
+	top: 60px;
+
+	font-family: Didact Gothic;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 28px;
+	line-height: 37px;
+
+	text-decoration: none;
+
+	color: #B9B6B6;
+
+
+}
+
+
+#logo{
+
+position: absolute;
+z-index: 9999;
+width: 60px;
+height: 122px;
+left: 52px;
+top: 11px;
+
+}
+
+#checkout-icon{
+	position: absolute;
+	width: 77.5px;
+	height: 56.5px;
+	left: 1282px;
+	top: 51px;
+
+}
+
+
+/*********** SELECTED NAV ITEMS ************/
+
+#order-online-selected{
+	position: absolute;
+	width: 144px;
+	height: 37px;
+	left: 515px;
+	top: 60px;
+
+	font-family: Didact Gothic;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 28px;
+	line-height: 37px;
+	color: rgba(230, 145, 189, 0.75);
+	text-decoration: underline;
+}
+
+#track-order-selected{
+	position: absolute;
+	width: 129px;
+	height: 37px;
+	left: 750px;
+	top: 60px;
+
+	font-family: Didact Gothic;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 28px;
+	line-height: 37px;
+	color: rgba(230, 145, 189, 0.75);
+	text-decoration: underline;
+}
+
+#contact-selected{
+	position: absolute;
+	width: 88px;
+	height: 37px;
+	left: 336px;
+	top: 60px;
+
+	font-family: Didact Gothic;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 28px;
+	line-height: 37px;
+	color: rgba(230, 145, 189, 0.75);
+	text-decoration: underline;
+}
+
+#about-selected{
+	position: absolute;
+	width: 70px;
+	height: 37px;
+	left: 178px;
+	top: 60px;
+
+	font-family: Didact Gothic;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 28px;
+	line-height: 37px;
+	color: rgba(230, 145, 189, 0.75);
+	text-decoration: underline;
+}
+
+
+#events-selected {
+
+	position: absolute;
+	width: 77px;
+	height: 37px;
+	left: 945px;
+	top: 60px;
+
+	font-family: Didact Gothic;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 28px;
+	line-height: 37px;
+
+	color: rgba(230, 145, 189, 0.75);
+	text-decoration: underline;
+
+
+}
+
+/*********** TEXT ************/
+
+h1 {
+	position: absolute;
+	width: 739px;
+	height: 355px;
+	left: 178px;
+	top: 220px;
+
+	font-family: Delius Swash Caps;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 96px;
+	line-height: 90px;
+}
+
+p {
+	position: absolute;
+	width: 498px;
+	height: 319px;
+	left: 178px;
+	top: 482px;
+
+	font-family: Didact Gothic;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 36px;
+	line-height: 32px;
+}
+
+h2{
+	position: absolute;
+	width: 121px;
+	height: 36px;
+	top: 438px;
+
+	font-family: Delius Swash Caps;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 36px;
+	line-height: 36px;
+
+}
+
+.bottom-h2{
+	position: absolute;
+	width: 260px;
+	height: 36px;
+	top: 782px;
+
+	font-family: Delius Swash Caps;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 36px;
+	line-height: 36px;
+}
+
+h3{
+
+	position: absolute;
+	width: 215px;
+	height: 36px;
+	left: 698px;
+	top: 200px;
+
+	font-family: Delius Swash Caps;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 64px;
+	line-height: 36px;
+}
+
+#price{
+	position: absolute;
+	width: 96px;
+	height: 24px;
+	left: 1027px;
+	top: 242px;
+
+	font-family: Delius Swash Caps;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 36px;
+	line-height: 24px;
+
+	text-align: right;
+}
+
+.selections{
+	position: absolute;
+	width: 82px;
+	height: 28px;
+	left: 701px;
+	top: 310px;
+
+	font-family: Delius Swash Caps;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 24px;
+	line-height: 28px;
+}
+
+.description {
+	position: absolute;
+	width: 449px;
+	height: 169px;
+	left: 184px;
+	top: 620px;
+
+	font-family: Didact Gothic;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 32px;
+	line-height: 32px;
+
+}
+
+#tracking-text{
+	position: absolute;
+	width: 751px;
+	height: 36px;
+	left: 178px;
+	top: 246px;
+
+	font-family: Delius Swash Caps;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 64px;
+	line-height: 64px;
+}
+
+
+#tracking-text-p{
+	position: absolute;
+	width: 751px;
+	height: 191px;
+	left: 178px;
+	top: 358px;
+
+	font-family: Didact Gothic;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 32px;
+	line-height: 32px;
+
+}
+
+#order-text{
+	position: absolute;
+	width: 100px;
+	height: 32px;
+	left: 213px;
+	top: 583px;
+
+	font-family: Didact Gothic;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 32px;
+	line-height: 32px;
+
+}
+
+#order-sample-text{
+	position: absolute;
+	width: 681px;
+	height: 54px;
+	left: 228px;
+	top: 606px;
+
+	font-family: Delius Swash Caps;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 48px;
+	padding-left: 20px;
+	padding-top: 8px;
+
+	color: rgba(255, 255, 255, 0.45);
+	
+	background: rgba(255, 255, 255, 0.1);
+	border: 3px solid #FFFFFF;
+	box-sizing: border-box;
+	border-radius: 28px;
+
+
+}
+
+.events-text{
+
+	position: absolute;
+	width: 703px;
+	height: 120px;
+	left: 455px;
+	top: 400px;
+
+	font-family: Didact Gothic;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 32px;
+	line-height: 32px;
+
+
+
+	color: #FFFFFF;
+
+
+}
+
+/*********** SHOPPING CART TEXT ************/
+
+.total-cart-text{
+
+	position: absolute;
+	width: 703px;
+	height: 120px;
+	left: 455px;
+	top: 400px;
+
+	font-family: Didact Gothic;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 32px;
+	line-height: 32px;
+
+
+
+	color: #FFFFFF;
+
+
+}
+
+
+/*********** IMAGES ************/
+
+
+#home-page-image{
+
+	position: absolute;
+	width: 100%;
+	z-index: 10;
+	width: 473px;
+	left: 967px;
+	top: 128px;
+
+}
+
+#home-page-image-cage{
+	position: absolute;
+	width: 473px;
+	height: 767px;
+	left: 967px;
+	top: 128px;
+
+	background: url(images/calum-lewis-rkT_TG5NKF8-unsplash_1.png);
+	border-left-style: solid;
+	border-width: 8px;
+
+
+}
+
+.original-roll-pic{
+
+	position: absolute;
+	width: 235px;
+	height: 226px;
+	top: 210px;
+	
+	background: url(images/Individual-Roll-Image_original.png);
+
+}
+
+.original-roll-pic-bottom-row{
+
+	position: absolute;
+	width: 235px;
+	height: 226px;
+	top: 553px;
+	
+	background: url(images/Individual-Roll-Image_original.png);
+
+}
+
+.original-roll-pic-large{
+
+	position: absolute;
+	width: 455px;
+	height: 438px;
+	left: 178px;
+	top: 183px;
+
+	background: url(images/Individual-Roll-Image_original-large.png);
+
+}
+
+.back-arrow{
+
+	position: absolute;
+	width: 60px;
+	height: 30px;
+	left: 52px;
+	top: 184px;
+
+	background: url(images/Arrow_1.png);
+
+}
+
+#about-page-image-cage{
+	position: absolute;
+	width: 473px;
+	height: 767px;
+	left: 967px;
+	top: 128px;
+
+	background: url(images/maranda-vandergriff-fZBwUGlKbO8-unsplash_cropped.png);
+	border-left-style: solid;
+	border-width: 8px;
+
+
+}
+
+#oct-24{
+	position: absolute;
+	width: 134px;
+	height: 134px;
+	left: 284px;
+	top: 400px;
+
+	background: url(images/10-24_event-circle_onex.png);
+
+
+
+}
+
+#oct-31{
+	position: absolute;
+	width: 134px;
+	height: 134px;
+	left: 284px;
+	top: 600px;
+
+	background: url(images/10-31_event-circle_onex.png);
+
+
+
+}
+
+
+/*********** OVERALL PAGE BORDER - RIGHT AND BOTTOM ************/
+
+
+#footer {
+	position: absolute;
+	width: 100%;
+	height:828px;
+	background: #FFFFFF;
+	
+	left: 0px;
+	top: 894px;
+}
+
+#right-border{
+	position: absolute;
+	width: 128%;
+	height: 1440px;
+	background: #FFFFFF;
+	
+	left: 1440px;
+	top: 128px;
+}
+
+
+/*********** DROP-DOWN MENUS ************/
+
+
+#glazing-menu{
+
+	position: absolute;
+	width: 209px;
+	height: 31px;
+	left: 701px;
+	top: 385px;
+	
+	background: url(images/glazing-menu.png);
+}
+
+
+#quantity-menu{
+
+	position: absolute;
+	width: 209px;
+	height: 31px;
+	left: 701px;
+	top: 385px;
+	
+	background: url(images/quantity-menu.png);
+}
+
+#add-to-cart_details{
+	position: absolute;
+	width: 478px;
+	height: 65px;
+	left: 687px;
+	top: 465px;
+	
+	background: url(images/add-to-cart_details-screen.png);
+
+}
+
+#tracking-submit{
+	position: absolute;
+	width: 232px;
+	height: 45px;
+	left: 671px;
+	top: 732px;
+	
+	background: url(images/order-tracking_submit.png);
+
+}
+
+.add-to-cart-button{
+	position: absolute;
+	width: 450px;
+	height: 62px;
+	left: 701px;
+	top: 465px;
+	background: rgba(230, 145, 189, 0.85);
+	border: 3px solid #FFFFFF;
+	box-sizing: border-box;
+	border-radius: 22px;
+	
+	font-family: Delius Swash Caps;
+	font-weight: normal;
+	font-size: 48px;
+	line-height: 36px;
+
+	text-align: center;
+
+	color: #FFFFFF;
+
+}
+
+.add-to-cart-button:hover{
+	position: absolute;
+	width: 450px;
+	height: 62px;
+	left: 701px;
+	top: 465px;
+	background: rgba(228, 25, 130, 0.85);
+	border: 3px solid #FFFFFF;
+	box-sizing: border-box;
+	border-radius: 22px;
+	
+	font-family: Delius Swash Caps;
+	font-weight: normal;
+	font-size: 48px;
+	line-height: 36px;
+
+	text-align: center;
+
+	color: #FFFFFF;
+
+}
+
+select {
+
+	position: absolute;
+	width: 209px;
+	height: 31px;
+	font-family: Delius Swash Caps;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 18px;
+	line-height: 22px;
+	
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	
+	padding-left: 8px;
+
+
+
+	color: #FFFFFF;
+
+	border: 3px solid #FFFFFF;
+	background-color: transparent;
+	box-sizing: border-box;
+	border-radius: 8px;
+
+/**** The following background-image, background-position, and background-size I learned how to format from codepen.io https://codepen.io/vkjgr/pen/VYMeXp, I used the format they had and slightly modified ****/
+  background-image:
+    linear-gradient(45deg, transparent 50%, pink 50%),
+    linear-gradient(135deg, pink 50%, transparent 50%),
+    linear-gradient(to right, white, white);
+  background-position:
+    calc(100% - 20px) calc(1em - 4px),
+    calc(100% - 15px) calc(1em - 4px),
+    100% 0;
+  background-size:
+    6px 6px,
+    6px 6px,
+    4em 4em;
+
+  background-repeat: no-repeat;
+  
+}
+
+#glazing-option-id {
+	left: 701px;
+	top: 385px;
+}
+
+#quantity-option-id {
+	left: 942px;
+	top: 385px;
+}
+
+/****** POP UP SHOPPING CART*******/
+
+#cartpop{
+
+	position: absolute;
+	width: 24px;
+	height: 24px;
+	border-radius: 50%;
+	left: 1345px;
+	top: 46px;
+	display: none;
+
+
+	background: #E43791;
+	
+	font-family: Delius Swash Caps;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	line-height: 22px;
+	text-align: center;
+	color: #FFFFFF;
+	z-index: +2;
+}
